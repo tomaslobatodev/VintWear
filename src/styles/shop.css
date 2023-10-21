@@ -1,0 +1,47 @@
+main {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+  background-color: #181818;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+}
+
+main li {
+  width: 320px;
+  background-color: #202020;
+}
+
+li img {
+  width: 320px;
+  height: 350px;
+  object-fit: cover;
+}
+
+li div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  height: 64px;
+  align-items: center;
+  font-size: 19px;
+  background-color: #080808;
+}
+
+li div button {
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+}

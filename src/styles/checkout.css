@@ -1,0 +1,52 @@
+.checkout-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    align-items: center;
+    width: 500px;
+    background-color: #090909;
+}
+
+.items li div {
+    display: flex;
+    background-color: transparent;
+    font-size: 24px;
+    align-items: center;
+    gap: 10px;
+}
+
+.items li img {
+    width: 50px;
+    height: 50px;
+}
+
+.pay-btn{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+.pay-btn:hover {
+    background-color: white;
+    color: black;
+}

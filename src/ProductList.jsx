@@ -7,23 +7,23 @@ export default function ProductList({ products }) {
   const { addToCart } = useStore()
 
   return (
-    <main>
+    <main className="shop">
       <ul className="product-list">
         {products.map((product) => (
           <li key={product.id}>
             <img src={product.img} alt={product.name} />
             <div>
-              <span>{product.name}</span>
+              <span>${product.price} {" "} | {" "} {product.name}</span>
               {product.onCart ? (
                 <button className="cart-button" disabled>
-                  <Check /> <span>In Cart</span>
+                  <Check />
                 </button>
               ) : (
                 <button
                   className="cart-button"
                   onClick={() => addToCart(product)}
                 >
-                  <PlusSquare /> <span>Add to Cart</span>
+                  <PlusSquare />
                 </button>
               )}
             </div>

@@ -5,6 +5,7 @@ import App from "./App"
 import { StoreProvider } from "./context/StoreContext"
 import "./styles/index.css"
 import Cart from "./Cart"
+import Checkout from "./Checkout"
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/cart",
     element: <Cart />,
+  },
+  {
+    path: "/checkout",
+    element: <Checkout />,
   },
 ])
 

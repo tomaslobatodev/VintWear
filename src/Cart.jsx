@@ -2,6 +2,7 @@ import { useStore } from "./context/StoreContext"
 import NavBar from "./components/NavBar"
 import "./styles/cart.css"
 import { Trash2 } from "lucide-react"
+import { Link } from "react-router-dom"
 
 export default function Cart() {
   const { cartItems, removeFromCart } = useStore()
@@ -25,7 +26,7 @@ export default function Cart() {
         ))}
       </ul>
       <div className="checkout">
-        <button className="checkout-btn">Checkout</button>
+        <Link className="checkout-btn" to="/checkout">Checkout</Link>
       </div>
     </>
   )

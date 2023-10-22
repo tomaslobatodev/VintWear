@@ -1,7 +1,7 @@
 .cart-list {
   width: 100%;
   box-sizing: border-box;
-  padding: 16px;
+  padding: 16px 72px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -35,9 +35,22 @@
   border-radius: 8px;
 }
 
-.cart-button {
+.cart-list li div button {
   display: flex;
   gap: 2px;
+  border-radius: 16px;
+  font-size: 24px;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-list li div button:hover {
+  background-color: red;
+  transition: .2s;
 }
 
 .checkout {
@@ -49,11 +62,20 @@
 }
 
 .checkout-btn {
-  height: 50%;
+  height: 20%;
   padding: 16px;
   font-size: 24px;
   display: flex;
   align-items: center;
-  border-radius: 16px;
+  border-radius: 8px;
   cursor: pointer;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.checkout-btn:hover {
+  background-color: white;
+  color: #090909;
+  transition: .2s;
 }

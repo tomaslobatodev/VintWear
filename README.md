@@ -2,3 +2,4 @@
 
 ### To do:
 - loading states
+- update title

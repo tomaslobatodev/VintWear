@@ -21,6 +21,16 @@ const products = [
       name: "Track pants",
       img: "https://frothlyf.com.au/cdn/shop/products/20210121_FROTHLYF9023_510x@2x.progressive.jpg?v=1612775640",
       price: 40,
+    },{
+      id: 5,
+      name: "Nike Blazer Mid",
+      img: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/77a8e38d-6096-4e5a-85fb-8231b633faf1/calzado-blazer-mid-77-vintage-kv4WKL.png",
+      price: 84,
+    },{
+      id: 6,
+      name: "Sweatshirt",
+      img: "https://ratsvintage.com/cdn/shop/files/EE0B5EAC-0AB1-40E2-9CF9-3BCD0EB35EF4.jpg?v=1691064275&width=1080",
+      price: 30,
     },
   ];
   
